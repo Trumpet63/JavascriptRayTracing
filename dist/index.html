@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ray Trace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="column">
+        <div id="canvasContainer">
+            <canvas id="mainCanvas"></canvas>
+        </div>
+        <div id="fpsCounter"></div>
+        <div id="controls">
+            <div class="inputRow">
+                <div class="inputRowLabel">
+                    X
+                </div>
+                <div class="inputRowInputContainer">
+                    <input type="range" class="inputRowInput" id="xInput" min="-0.5" max="3.0" step="0.0001" value="0.5">
+                </div>
+            </div>
+            <div class="inputRow">
+                <div class="inputRowLabel">
+                    Y
+                </div>
+                <div class="inputRowInputContainer">
+                    <input type="range" class="inputRowInput" id="yInput" min="-0.5" max="3.0" step="0.0001" value="0.5">
+                </div>
+            </div>
+            <div class="inputRow">
+                <div class="inputRowLabel">
+                    Z
+                </div>
+                <div class="inputRowInputContainer">
+                    <input type="range" class="inputRowInput" id="zInput" min="0.0" max="5.0" step="0.0001" value="2.0">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="bundle.js"></script>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "raytrace_temp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --sourcemap --outfile=dist/bundle.js --target=esnext"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "0.25.1"
+  }
+}
